@@ -1,311 +1,145 @@
-# Awesome-Power-User-Utilities
+# ⚡ Awesome Power User Utilities 🛠️
 
-## Top Power User Utilities Ecosystem
+![Awesome Power User Utilities Banner](./assets/banner.svg)
 
+<p center>
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/badge.svg)](https://github.com/ishandutta2007/Awesome-Awesome-Awesome)
+[![GitHub last commit](https://img.shields.io/github/last-commit/ishandutta2007/Awesome-Power-User-Utilities)](https://github.com/ishandutta2007/Awesome-Power-User-Utilities)
+<a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on Productivity Launchers, Automation & System Enhancement Tools*  
-
-**Last updated: October 2026**
-
-
-
-This repository tracks notable **commercial power user utilities** and **open-source projects** that supercharge desktop workflows — from keyboard launchers and window managers to automation scripts and clipboard managers.
-
-
-
-**Examples** include Microsoft PowerToys, Alfred, Raycast, AutoHotkey, CleanShot X, Magnet, BetterTouchTool, Dropzone, QuickLook, and ShareX (the category leaders).
-
-
-
-**Open-source emphasis**: Power user utilities are one of the strongest open-source domains. **PowerToys** (Microsoft), **AutoHotkey**, **ShareX**, **Flow Launcher**, **Wox**, **Keypirinha**, **Espanso**, and **Kando** collectively provide launchers, automation, screen capture, and pie menus with zero licensing costs. This section is heavily expanded.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Alfred](https://www.alfredapp.com/)**  
-
-  **The macOS launcher standard** — workflows, clipboard history, snippets, and file search. **Free tier available**; Powerpack (£34) unlocks workflows and themes. **The most polished commercial launcher** — deeply extensible via community workflows .
-
-
-
-- **[Raycast](https://www.raycast.com/)**  
-
-  **The modern macOS launcher** — blazing-fast, beautiful, and extensible via Store. **Free tier generous**; Pro at $8/month for AI and cloud sync. **The most popular newer launcher** — 500K+ users. **The best Alfred alternative** with a more modern UI .
-
-
-
-- **[AutoHotkey](https://www.autohotkey.com/)**  
-
-  **The Windows automation standard** — hotkeys, macros, and GUI automation. **Free and open-source** (GPL) with a massive community. **The most powerful Windows automation tool** — used for everything from simple hotkeys to complex application automation .
-
-
-
-- **[CleanShot X](https://cleanshot.com/)**  
-
-  **The macOS screenshot standard** — scrolling capture, annotation, OCR, and cloud sharing. **One-time purchase** ($29) or subscription. **The best macOS capture tool** .
-
-
-
-- **[Magnet](https://magnet.crowdcafe.com/)**  
-
-  **The macOS window manager standard** — snap windows to edges and grid positions. **One-time purchase** ($2.99). **The simplest, most reliable macOS window manager** .
-
-
-
-- **[BetterTouchTool](https://folivora.ai/)**  
-
-  **The macOS input customization standard** — trackpad gestures, keyboard shortcuts, Touch Bar, and window snapping. **One-time purchase** ($10) or subscription. **The most powerful macOS input customizer** .
-
-
-
-- **[Dropzone](https://aptonic.com/)**  
-
-  **The macOS drag-and-drop enhancer** — file actions, uploads, and app shortcuts via drop zones. **One-time purchase** ($15). **The best macOS drop zone tool** .
-
-
-
-- **[QuickLook](https://apps.microsoft.com/detail/9nv4bs3l1h4s)**  
-
-  **Windows preview utility** (from Microsoft Store) — press space to preview files like macOS Quick Look. **Free** from Microsoft Store. **The best Windows file preview tool** .
-
-
-
-- **[ShareX](https://getsharex.com/)**  
-
-  **The Windows capture standard** — see Open-Source section below for full details.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[Microsoft PowerToys](https://github.com/microsoft/PowerToys)**  
-
-  **The most comprehensive open-source Windows utility suite**, MIT licensed with **120,000+ GitHub stars** . **FancyZones (window manager), PowerToys Run (launcher), Color Picker, PowerRename, File Locksmith, Image Resizer, Keyboard Manager, and more** . **The best free Windows power user toolkit** — officially from Microsoft . **The de facto Windows PowerToys replacement** .
-
-
-
-- **[ShareX](https://github.com/ShareX/ShareX)**  
-
-  **The most feature-complete open-source screen capture suite**, GPL-3.0 licensed with **30,000+ GitHub stars** . **Windows-only** — screenshot, screen recording, GIF capture, scrolling capture, OCR, annotation, and **80+ upload destinations** . **Automation workflows** — after-capture actions, hotkeys, and scheduled tasks . **The de facto open-source Snagit alternative** — free and more powerful than most commercial tools . **Best for power users** wanting maximum capture flexibility .
-
-
-
-- **[AutoHotkey](https://github.com/AutoHotkey/AutoHotkey)**  
-
-  **The Windows automation scripting language**, GPL-2.0 licensed . **Hotkeys, hotstrings, macros, GUI automation, and application control** . **The most powerful Windows automation tool** — used by millions for everything from simple hotkeys to complex application automation . **The de facto Windows automation standard** .
-
-
-
-- **[Flow Launcher](https://github.com/Flow-Launcher/Flow.Launcher)**  
-
-  **The best open-source Windows launcher**, MIT licensed with **10,000+ GitHub stars** . **Plugins for everything** — file search, web search, calculator, and app launcher . **The de facto open-source Alfred alternative for Windows** . **Best for Windows users wanting Raycast/Alfred-like functionality** .
-
-
-
-- **[Wox](https://github.com/Wox-launcher/Wox)**  
-
-  **The original open-source Windows launcher**, MIT licensed . **Plugin ecosystem with everything search** . **The predecessor to Flow Launcher** — historically significant . **Best for lightweight launcher functionality** .
-
-
-
-- **[Keypirinha](https://github.com/Keypirinha/Keypirinha)**  
-
-  **Fast, keyboard-driven launcher for Windows**, Apache-2.0 licensed . **Keystroke-based activation** — type to search files, launch apps, and run commands . **The fastest Windows launcher** — minimal and efficient . **Best for keyboard-centric power users** .
-
-
-
-- **[Espanso](https://github.com/espanso/espanso)**  
-
-  **Cross-platform text expander**, MIT licensed with **15,000+ GitHub stars** . **Replace typed shortcuts with text, dates, and dynamic content** . **Works on Windows, macOS, and Linux** . **The best open-source text expander** — alternative to TextExpander and aText . **Best for automating repetitive typing** .
-
-
-
-- **[Kando](https://github.com/kando-menu/kando)**  
-
-  **Cross-platform pie menu for desktop**, MIT licensed . **Circular menus for quick actions and shortcuts** . **The best open-source pie menu** — alternative to BetterTouchTool's gestures . **Best for radial menu workflows** .
-
-
-
-- **[Ditto](https://github.com/sabrogden/Ditto)**  
-
-  **Windows clipboard manager**, GPL-3.0 licensed . **Clipboard history, search, and sync across computers** . **The standard Windows clipboard manager** . **Best for clipboard history on Windows** .
-
-
-
-- **[CopyQ](https://github.com/hluk/CopyQ)**  
-
-  **Cross-platform clipboard manager with editing**, GPL-3.0 licensed . **Clipboard history, tabs, scripting, and custom actions** . **The most feature-rich open-source clipboard manager** . **Best for power users wanting advanced clipboard workflows** .
-
-
-
-- **[Maccy](https://github.com/p0deje/Maccy)**  
-
-  **Lightweight macOS clipboard manager**, MIT licensed . **Simple, fast, and keyboard-driven** . **The best lightweight macOS clipboard manager** .
-
-
-
-- **[Rectangle](https://github.com/rxhanson/Rectangle)**  
-
-  **macOS window manager**, MIT licensed . **Keyboard shortcuts and snap areas for window positioning** . **The best open-source macOS window manager** — alternative to Magnet . **Best for macOS window snapping** .
-
-
-
-- **[AltTab](https://github.com/lwouis/alt-tab-macos)**  
-
-  **Windows-like Alt-Tab for macOS**, MIT licensed . **Window previews, app switching, and customization** . **The best macOS window switcher** .
-
-
-
-- **[QuickLook (macOS)](https://github.com/sindresorhus/QuickLook)**  
-
-  **Open-source Quick Look plugins for macOS** . **Preview more file types** . **Best for extending macOS preview** .
-
-
-
-- **[ueli](https://github.com/oliverschwendener/ueli)**  
-
-  **Cross-platform keystroke launcher**, MIT licensed . **Simple, fast, and extensible** . **Best for lightweight launcher needs** .
-
-
-
-- **[Cerebro](https://github.com/cerebroapp/cerebro)**  
-
-  **Open-source launcher with plugin ecosystem**, MIT licensed . **Beautiful UI with extensibility** . **Best for macOS/Linux/Windows launcher** .
-
-
-
-- **[Albert](https://github.com/albertlauncher/albert)**  
-
-  **Linux keyboard launcher**, GPL-3.0 licensed . **Plugins for files, web, calculator, and more** . **The best Linux launcher** — alternative to Alfred/Raycast . **Best for Linux power users** .
-
-
-
-- **[Ulauncher](https://github.com/Ulauncher/Ulauncher)**  
-
-  **Linux application launcher**, GPL-3.0 licensed . **Extensions and themes** . **Best for lightweight Linux launcher** .
-
-
-
-- **[Rofi](https://github.com/davatorium/rofi)**  
-
-  **Window switcher, application launcher, and dmenu replacement**, MIT licensed . **The standard for tiling window managers** . **Best for i3/sway users** .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Everything** — Instant file search for Windows (not open-source but free) .
-
-- **Listary** — Windows file search and launcher (not open-source) .
-
-- **Wox** — Original Windows launcher .
-
-- **Keypirinha** — Fast Windows launcher .
-
-- **ueli** — Cross-platform launcher .
-
-- **Cerebro** — Launcher with plugins .
-
-- **Albert** — Linux launcher .
-
-- **Ulauncher** — Linux launcher .
-
-- **Rofi** — Window switcher for tiling WMs .
-
-- **dmenu** — Dynamic menu for X (suckless) .
-
-- **Clipmenu** — Clipboard manager for X .
-
-- **Greenclip** — Clipboard manager for X .
-
-- **CopyQ** — Cross-platform clipboard manager .
-
-- **Ditto** — Windows clipboard manager .
-
-- **Maccy** — macOS clipboard manager .
-
-- **Flycut** — macOS clipboard manager .
-
-- **Rectangle** — macOS window manager .
-
-- **AltTab** — macOS window switcher .
-
-- **Espanso** — Cross-platform text expander .
-
-- **Kando** — Cross-platform pie menu .
-
-- **AutoKey** — Linux automation and hotkeys .
-
-
-
-**Frameworks for building custom power user solutions**: Combine **PowerToys** for Windows window management, launcher, and utilities . **Flow Launcher** or **Keypirinha** for Windows launcher . **AutoHotkey** for Windows automation . **ShareX** for screen capture . **Ditto** or **CopyQ** for clipboard management . **Espanso** for text expansion . **Rectangle** or **AltTab** for macOS window management . **Maccy** for macOS clipboard . **Albert** or **Ulauncher** for Linux launcher . Note that true commercial power user suites with polished UIs, cloud sync, and cross-device workflows (Raycast, Alfred, CleanShot X) remain primarily commercial territory; open-source stacks provide strong window management, launcher, capture, and automation foundations that require configuration for complete workflows.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Power user utilities often require system-level permissions and may modify system behavior. **Review permissions before installation** — clipboard managers and launchers see everything you copy and type.
-
-- **AutoHotkey scripts can execute arbitrary commands** — only run scripts from trusted sources .
-
-- **Some tools are platform-specific** — ShareX, PowerToys, Ditto, AutoHotkey are Windows-only; Rectangle, Maccy, AltTab are macOS-only; Albert, Ulauncher, Rofi are Linux-focused . Verify platform compatibility.
-
-- The open-source ecosystem provides strong window management, launcher, capture, and automation foundations, but **polished UIs, cloud sync, and cross-device workflows** remain primarily commercial offerings.
-
-
+> 🚀 A curated directory of top **power user utilities**, **productivity launchers**, **desktop automation software**, **window managers**, **clipboard managers**, and **system enhancement tools** across Windows 🪟, macOS 🍏, and Linux 🐧.
 
 ---
 
+## 📌 Table of Contents
 
+- [💡 Overview & Market Insights](#-overview--market-insights)
+- [💳 SaaS & Commercial Products](#-saas--commercial-products)
+- [🌐 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🛠️ Recommended Open-Source Power Stacks](#️-recommended-open-source-power-stacks)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [⭐ Star History](#-star-history)
+- [⚠️ Disclaimer](#️-disclaimer)
 
-**Made for power users, developers, and productivity enthusiasts.**  
+---
 
-Let's make power user utilities more open, transparent, and accessible.
+## 💡 Overview & Market Insights
+
+The global desktop power user and system utility software market is estimated at **$12.5 Billion+ (2026)**, spanning specialized productivity launchers, screen capture engines, window management tools, and desktop automation software. 
+
+**Market Dynamics:** The sector is **highly fragmented**, characterized by niche boutique developers (e.g., Running with Crayons, folivora.ai), self-funded indie products (CleanShot X, Magnet), and venture-backed category disrupters (Raycast). While OS tech giants like Microsoft (PowerToys) and Apple bundle baseline system capabilities, power users consistently adopt specialized third-party tools due to superior workflow customization, deep keyboard-driven interfaces, and rich plugin ecosystems. 📈
+
+---
+
+## 💳 SaaS & Commercial Products
+
+Below is a curated comparison of leading commercial and freemium desktop power user utilities, sorted by **Company Size / Valuation / Capitalization (Descending)**. 🏆
+
+| Rank | Product / Platform | Category | Target OS | Starting Pricing | Free Tier / Trial Limits | Company Size / Revenue / Valuation |
+| :---: | :--- | :--- | :---: | :--- | :--- | :--- |
+| **1** | **[Microsoft PowerToys](https://apps.microsoft.com/detail/9mwc2l3kq4sk)** / **[QuickLook](https://apps.microsoft.com/detail/9nv4bs3l1h4s)** | System Utility Suite / Quick Preview | Windows 🪟 | **$0.00** (Included with Windows / Store) | **Unlimited Free Access** (100% Free full features, no ads) | **$3.85 Trillion Market Cap** ($318B+ TTM Revenue) |
+| **2** | **[Raycast](https://www.raycast.com/)** | Command Launcher & AI Assistant | macOS 🍏 | **$8.00 / mo** (Billed annually for Pro) | **Free Forever Tier** (Core launcher, extension store, unlimited local commands; AI & Cloud Sync require Pro) | **$48 Million Funding** (Series B, backed by Accel & YC) |
+| **3** | **[Alfred](https://www.alfredapp.com/)** | Keyboard Launcher & Workflows | macOS 🍏 | **£34.00 single user** (~$44 one-time Powerpack) | **Free Forever Tier** (Basic search & app launching; Workflows, Clipboard History & Themes require Powerpack) | **Privately Held / Bootstrapped** (~$1M–$5M estimated annual sales) |
+| **4** | **[CleanShot X](https://cleanshot.com/)** | Screen Capture & Cloud Sharing | macOS 🍏 | **$29.00 one-time** (Includes 1 yr updates + 1GB Cloud) | **30-Day Money-Back Trial** (No perpetual free plan; full features during evaluation) | **Privately Held Indie Developer** (Self-funded niche leader) |
+| **5** | **[BetterTouchTool](https://folivora.ai/)** | Input Gestures & Window Snapping | macOS 🍏 | **$10.00 standard** (Includes 2 yrs updates) | **45-Day Full-Featured Free Trial** (No perpetual free tier; unrestricted evaluation for 45 days) | **Privately Held / Bootstrapped** (Independent developer folivora.ai) |
+| **6** | **[Dropzone 4](https://aptonic.com/)** | Drag & Drop Actions / Shortcuts | macOS 🍏 | **$1.99 / mo** (Pro Subscription or $35 lifetime) | **Free Base Tier** (Standard grid & file actions; Pro actions have 14-day free trial) | **Privately Held / Bootstrapped** (Independent developer Aptonic) |
+| **7** | **[Magnet](https://magnet.crowdcafe.com/)** | Window Manager & Snapping | macOS 🍏 | **$9.99 one-time** (Mac App Store purchase) | **No Free Tier / No Free Trial** (Paid download only on Mac App Store) | **Privately Held / Bootstrapped** (Independent developer CrowdCafe) |
+
+---
+
+## 🌐 Open-Source GitHub Projects
+
+Top open-source productivity utilities and desktop enhancements, sorted by **GitHub Star Count (Descending)**. ⭐
+
+| Rank | Project Name | Category | Primary OS | GitHub Stars Badge | License | Description & Key Features |
+| :---: | :--- | :--- | :---: | :---: | :---: | :--- |
+| **1** | **[Microsoft PowerToys](https://github.com/microsoft/PowerToys)** | System Suite | Windows 🪟 | [![Stars](https://img.shields.io/github/stars/microsoft/PowerToys?style=social&color=white)](https://github.com/microsoft/PowerToys/stargazers) | MIT | **The ultimate Windows utility toolkit.** Includes FancyZones window manager, PowerToys Run launcher, Color Picker, PowerRename, File Locksmith, and Keyboard Manager. |
+| **2** | **[ShareX](https://github.com/ShareX/ShareX)** | Screen Capture | Windows 🪟 | [![Stars](https://img.shields.io/github/stars/ShareX/ShareX?style=social&color=white)](https://github.com/ShareX/ShareX/stargazers) | GPL-3.0 | **Feature-packed screen capture suite.** Screenshot, video/GIF recording, scrolling capture, OCR, image annotation, and 80+ automated upload destinations. |
+| **3** | **[Rectangle](https://github.com/rxhanson/Rectangle)** | Window Manager | macOS 🍏 | [![Stars](https://img.shields.io/github/stars/rxhanson/Rectangle?style=social&color=white)](https://github.com/rxhanson/Rectangle/stargazers) | MIT | **Essential macOS window manager.** Move and resize windows using keyboard shortcuts or snap areas. Ideal lightweight Magnet open-source replacement. |
+| **4** | **[yabai](https://github.com/koekeishiya/yabai)** | Window Manager | macOS 🍏 | [![Stars](https://img.shields.io/github/stars/koekeishiya/yabai?style=social&color=white)](https://github.com/koekeishiya/yabai/stargazers) | MIT | **Tiling window manager for macOS.** Automatically modifies window layout using binary space partitioning (BSP) and command-line control scripts. |
+| **5** | **[Wox](https://github.com/Wox-launcher/Wox)** | Launcher | Windows 🪟 | [![Stars](https://img.shields.io/github/stars/Wox-launcher/Wox?style=social&color=white)](https://github.com/Wox-launcher/Wox/stargazers) | MIT | **Full-featured Windows launcher.** Instantly search files, apps, and web bookmark content with a customizable plugin ecosystem. |
+| **6** | **[Maccy](https://github.com/p0deje/Maccy)** | Clipboard | macOS 🍏 | [![Stars](https://img.shields.io/github/stars/p0deje/Maccy?style=social&color=white)](https://github.com/p0deje/Maccy/stargazers) | MIT | **Lightweight macOS clipboard manager.** Fast, search-as-you-type history retention designed to keep your hands on the keyboard. |
+| **7** | **[Quick Look Plugins](https://github.com/sindresorhus/quick-look-plugins)** | Preview Enhancer | macOS 🍏 | [![Stars](https://img.shields.io/github/stars/sindresorhus/quick-look-plugins?style=social&color=white)](https://github.com/sindresorhus/quick-look-plugins/stargazers) | MIT | **Curated list of macOS Quick Look plugins.** Preview syntax-highlighted code, JSON, Markdown, rendering ZIP archives, and images instantly. |
+| **8** | **[Ulauncher](https://github.com/Ulauncher/Ulauncher)** | Launcher | Linux 🐧 | [![Stars](https://img.shields.io/github/stars/Ulauncher/Ulauncher?style=social&color=white)](https://github.com/Ulauncher/Ulauncher/stargazers) | GPL-3.0 | **Application launcher for Linux.** Minimal GTK+ launcher featuring fuzzy search, extensions, custom themes, and shortcut commands. |
+| **9** | **[AltTab](https://github.com/lwouis/alt-tab-macos)** | Window Switcher | macOS 🍏 | [![Stars](https://img.shields.io/github/stars/lwouis/alt-tab-macos?style=social&color=white)](https://github.com/lwouis/alt-tab-macos/stargazers) | GPL-3.0 | **Brings Windows Alt-Tab window switcher power to macOS.** View live window previews, minimize/close apps, and filter windows across monitors. |
+| **10** | **[Amethyst](https://github.com/ianyh/Amethyst)** | Window Manager | macOS 🍏 | [![Stars](https://img.shields.io/github/stars/ianyh/Amethyst?style=social&color=white)](https://github.com/ianyh/Amethyst/stargazers) | MIT | **Automatic tiling window manager for macOS.** Written in Swift, inspired by xmonad with dynamic layouts and keyboard shortcuts. |
+| **11** | **[Flow Launcher](https://github.com/Flow-Launcher/Flow.Launcher)** | Launcher | Windows 🪟 | [![Stars](https://img.shields.io/github/stars/Flow-Launcher/Flow.Launcher?style=social&color=white)](https://github.com/Flow-Launcher/Flow.Launcher/stargazers) | MIT | **Modern productivity launcher for Windows.** Instant file search via Everything integration, environment commands, and Python/C# plugins. |
+| **12** | **[Espanso](https://github.com/espanso/espanso)** | Text Expander | Cross-platform 💻 | [![Stars](https://img.shields.io/github/stars/espanso/espanso?style=social&color=white)](https://github.com/espanso/espanso/stargazers) | GPL-3.0 | **Cross-platform text expander written in Rust.** Detects typed triggers and replaces them with snippets, shell script outputs, or dynamic dates. |
+| **13** | **[AutoHotkey](https://github.com/AutoHotkey/AutoHotkey)** | Automation | Windows 🪟 | [![Stars](https://img.shields.io/github/stars/AutoHotkey/AutoHotkey?style=social&color=white)](https://github.com/AutoHotkey/AutoHotkey/stargazers) | GPL-2.0 | **Windows automation scripting engine.** Automate hotkeys, remap keys, define hotstrings, and script desktop GUI macros. |
+| **14** | **[GlazeWM](https://github.com/glzr-io/glazewm)** | Window Manager | Windows 🪟 | [![Stars](https://img.shields.io/github/stars/glzr-io/glazewm?style=social&color=white)](https://github.com/glzr-io/glazewm/stargazers) | GPL-3.0 | **Tiling window manager for Windows.** Inspired by i3 and bspwm; offers customizable workspaces, keybindings, and multi-monitor support. |
+| **15** | **[CopyQ](https://github.com/hluk/CopyQ)** | Clipboard | Cross-platform 💻 | [![Stars](https://img.shields.io/github/stars/hluk/CopyQ?style=social&color=white)](https://github.com/hluk/CopyQ/stargazers) | GPL-3.0 | **Advanced clipboard manager with editing and scripting.** Store searchable text, images, and HTML with customizable tab categories. |
+| **16** | **[ueli](https://github.com/oliverschwendener/ueli)** | Launcher | Cross-platform 💻 | [![Stars](https://img.shields.io/github/stars/oliverschwendener/ueli?style=social&color=white)](https://github.com/oliverschwendener/ueli/stargazers) | MIT | **Keystroke launcher for Windows and macOS.** Built with Electron for quick app starting, bookmark navigation, and terminal execution. |
+| **17** | **[Cerebro](https://github.com/cerebroapp/cerebro)** | Launcher | Cross-platform 💻 | [![Stars](https://img.shields.io/github/stars/cerebroapp/cerebro?style=social&color=white)](https://github.com/cerebroapp/cerebro/stargazers) | MIT | **Extensible open-source desktop launcher.** Open files, search web engines, convert currency, and execute system commands. |
+| **18** | **[Ditto](https://github.com/sabrogden/Ditto)** | Clipboard | Windows 🪟 | [![Stars](https://img.shields.io/github/stars/sabrogden/Ditto?style=social&color=white)](https://github.com/sabrogden/Ditto/stargazers) | GPL-3.0 | **Classic Windows clipboard extension.** Saves all copied items (text, images, files) into an encrypted database with network sync. |
+| **19** | **[Kando](https://github.com/kando-menu/kando)** | Radial Menu | Cross-platform 💻 | [![Stars](https://img.shields.io/github/stars/kando-menu/kando?style=social&color=white)](https://github.com/kando-menu/kando/stargazers) | GPL-3.0 | **Pie menu launcher for mouse and touch.** Trigger radial context menus for app shortcuts, key combos, and desktop workflows. |
+| **20** | **[Albert](https://github.com/albertlauncher/albert)** | Launcher | Linux 🐧 | [![Stars](https://img.shields.io/github/stars/albertlauncher/albert?style=social&color=white)](https://github.com/albertlauncher/albert/stargazers) | C++ License | **Desktop agnostic launcher for Linux.** Written in C++ for maximum speed; indexes files, applications, bookmarks, and terminal commands. |
+| **21** | **[AutoKey](https://github.com/autokey/autokey)** | Automation | Linux 🐧 | [![Stars](https://img.shields.io/github/stars/autokey/autokey?style=social&color=white)](https://github.com/autokey/autokey/stargazers) | GPL-3.0 | **Desktop automation utility for Linux.** Provides text expansion and keyboard macro automation using Python scripts. |
+| **22** | **[Keypirinha](https://github.com/Keypirinha/Keypirinha)** | Launcher | Windows 🪟 | [![Stars](https://img.shields.io/github/stars/Keypirinha/Keypirinha?style=social&color=white)](https://github.com/Keypirinha/Keypirinha/stargazers) | Freeware Source | **Fast, keyboard-driven launcher for Windows.** Ultra-fast execution, low memory overhead, and Python-driven plugin engine. |
+
+---
+
+## 🛠️ Recommended Open-Source Power Stacks
+
+Build a zero-cost power user setup tailored to your operating system:
+
+### 🪟 Windows Power Stack
+- **Launcher**: [Flow Launcher](https://github.com/Flow-Launcher/Flow.Launcher) + Everything Search plugin 🚀
+- **System Suite & Window Snapping**: [Microsoft PowerToys](https://github.com/microsoft/PowerToys) (FancyZones) or [GlazeWM](https://github.com/glzr-io/glazewm) for tiling 🪟
+- **Screen Capture & OCR**: [ShareX](https://github.com/ShareX/ShareX) 📸
+- **Macro Automation**: [AutoHotkey](https://github.com/AutoHotkey/AutoHotkey) ⚡
+- **Clipboard Management**: [CopyQ](https://github.com/hluk/CopyQ) or [Ditto](https://github.com/sabrogden/Ditto) 📋
+
+### 🍏 macOS Power Stack
+- **Window Management**: [Rectangle](https://github.com/rxhanson/Rectangle) or [yabai](https://github.com/koekeishiya/yabai) 📐
+- **Window Switching**: [AltTab](https://github.com/lwouis/alt-tab-macos) 🔄
+- **Clipboard History**: [Maccy](https://github.com/p0deje/Maccy) 📋
+- **Text Expansion**: [Espanso](https://github.com/espanso/espanso) ✍️
+- **Quick Look Extensions**: [Quick Look Plugins](https://github.com/sindresorhus/quick-look-plugins) 👁️
+
+### 🐧 Linux Power Stack
+- **Application Launcher**: [Ulauncher](https://github.com/Ulauncher/Ulauncher) or [Albert](https://github.com/albertlauncher/albert) 🚀
+- **Desktop Automation & Expansion**: [AutoKey](https://github.com/autokey/autokey) or [Espanso](https://github.com/espanso/espanso) ⚡
+- **Clipboard Manager**: [CopyQ](https://github.com/hluk/CopyQ) 📋
+
+---
+
+## 🤝 How to Contribute
+
+1. Fork this repository 🍴.
+2. Add or update tool listings in `README.md` following the tabular format.
+3. Ensure accurate metrics (GitHub link, license, category, target OS, pricing detail).
+4. Submit a Pull Request with a clear summary of your updates 🚀.
+
+---
+
+## 💖 Support & Sponsorship
+
+If you found this repository useful, please consider supporting the project:
+
+- ⭐ **Star** this repository on GitHub to increase its visibility.
+- 🍴 **Fork** it to contribute improvements or maintain your own workflow list.
+- 📢 **Share** it with fellow power users, developers, and productivity enthusiasts!
+- ☕ **Buy me a coffee**: Support ongoing maintenance on the [Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+Thank you for your support! ❤️
+
+---
+
+## ⭐ Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Power-User-Utilities&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Power-User-Utilities&type=date&legend=top-left)
+
+---
+
+## ⚠️ Disclaimer
+
+- This directory is community-curated for informational purposes.
+- System-level utilities require elevated permissions — evaluate security implications before installing third-party keyboard hooks or clipboard managers.
+- Open-source project star counts and SaaS pricing tiers are updated periodically.
+
+---
+
+*Maintained with ❤️ for power users, software engineers, and workflow enthusiasts.*
