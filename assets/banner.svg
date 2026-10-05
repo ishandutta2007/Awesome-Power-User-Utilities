@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#311042"/>
+    </linearGradient>
+    
+    <linearGradient id="accent-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <style>
+      .title { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 800; font-size: 54px; fill: #ffffff; }
+      .subtitle { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 500; font-size: 22px; fill: #cbd5e1; }
+      .tag { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 600; font-size: 14px; fill: #38bdf8; letter-spacing: 2px; text-transform: uppercase; }
+      
+      @keyframes floatSlow {
+        0%, 100% { transform: translateY(0px) rotate(0deg); }
+        50% { transform: translateY(-12px) rotate(3deg); }
+      }
+      @keyframes pulseGlow {
+        0%, 100% { opacity: 0.3; transform: scale(1); }
+        50% { opacity: 0.6; transform: scale(1.08); }
+      }
+      @keyframes dashMove {
+        0% { stroke-dashoffset: 0; }
+        100% { stroke-dashoffset: -40; }
+      }
+      
+      .animated-bg-1 { animation: pulseGlow 6s ease-in-out infinite; transform-origin: 200px 150px; }
+      .animated-bg-2 { animation: pulseGlow 8s ease-in-out infinite 2s; transform-origin: 1000px 100px; }
+      .floating-card { animation: floatSlow 5s ease-in-out infinite; }
+      .flow-line { stroke-dasharray: 8 8; animation: dashMove 2s linear infinite; }
+    </style>
+  </defs>
+
+  <!-- Background Layer -->
+  <rect width="1200" height="300" rx="16" fill="url(#bg-gradient)"/>
+  
+  <!-- Background Dynamic Glowing Orbs (Behind content) -->
+  <circle class="animated-bg-1" cx="200" cy="150" r="140" fill="#6366f1" filter="url(#glow)" opacity="0.4"/>
+  <circle class="animated-bg-2" cx="1000" cy="100" r="160" fill="#a855f7" filter="url(#glow)" opacity="0.3"/>
+
+  <!-- Geometric Grid Accent (Background) -->
+  <path d="M0,220 Q300,180 600,240 T1200,200" fill="none" stroke="#334155" stroke-width="1.5" opacity="0.4"/>
+  <path d="M0,240 Q400,200 800,260 T1200,210" fill="none" stroke="url(#accent-gradient)" stroke-width="2" class="flow-line" opacity="0.5"/>
+
+  <!-- Background Floating Decorative Elements (Kept strictly on right side away from text) -->
+  <g class="floating-card" opacity="0.25">
+    <rect x="920" y="60" width="220" height="140" rx="12" fill="#1e293b" stroke="#475569" stroke-width="1.5"/>
+    <circle cx="950" cy="90" r="6" fill="#ef4444"/>
+    <circle cx="970" cy="90" r="6" fill="#f59e0b"/>
+    <circle cx="990" cy="90" r="6" fill="#10b981"/>
+    <rect x="950" y="115" width="120" height="8" rx="4" fill="#475569"/>
+    <rect x="950" y="135" width="160" height="8" rx="4" fill="#334155"/>
+    <rect x="950" y="155" width="90" height="8" rx="4" fill="#334155"/>
+  </g>
+
+  <!-- Foreground Main Content (High Contrast & Clear Readability) -->
+  <g transform="translate(70, 0)">
+    <!-- Tagline Badge -->
+    <rect x="0" y="52" width="280" height="28" rx="14" fill="#0f172a" stroke="#38bdf8" stroke-width="1.5" opacity="0.9"/>
+    <text x="14" y="71" class="tag">⚡ CURATED UTILITY DIRECTORY</text>
+
+    <!-- Main Title -->
+    <text x="0" y="142" class="title">Awesome Power User Utilities</text>
+    
+    <!-- Accent Line under Title -->
+    <rect x="0" y="160" width="520" height="4" rx="2" fill="url(#accent-gradient)"/>
+
+    <!-- Subtitle -->
+    <text x="0" y="202" class="subtitle">Top Productivity Launchers, System Enhancements &amp; Workflows</text>
+    
+    <!-- Platform Badges / Icons in SVG -->
+    <g transform="translate(0, 230)">
+      <rect x="0" y="0" width="110" height="28" rx="6" fill="#1e293b" stroke="#475569"/>
+      <text x="35" y="18" font-family="sans-serif" font-size="12" font-weight="bold" fill="#e2e8f0">Windows</text>
+      
+      <rect x="120" y="0" width="100" height="28" rx="6" fill="#1e293b" stroke="#475569"/>
+      <text x="155" y="18" font-family="sans-serif" font-size="12" font-weight="bold" fill="#e2e8f0">macOS</text>
+
+      <rect x="230" y="0" width="90" height="28" rx="6" fill="#1e293b" stroke="#475569"/>
+      <text x="260" y="18" font-family="sans-serif" font-size="12" font-weight="bold" fill="#e2e8f0">Linux</text>
+    </g>
+  </g>
+</svg>
