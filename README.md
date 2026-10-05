@@ -52,9 +52,9 @@ Below is a curated comparison of leading commercial and freemium desktop power u
 
 ## 🌐 Open-Source GitHub Projects
 
-Top open-source productivity utilities and desktop enhancements, sorted by **GitHub Star Count (Descending)**. ⭐
+Top open-source productivity utilities and desktop enhancements, sorted by **GitHub Stars_Count (Descending)**. ⭐
 
-| Rank | Project Name | Category | Primary OS | GitHub Stars Badge | License | Description & Key Features |
+| Rank | Project Name | Category | Primary OS | GitHub_Stars_Badge | License | Description & Key Features |
 | :---: | :--- | :--- | :---: | :---: | :---: | :--- |
 | **1** | **[Microsoft PowerToys](https://github.com/microsoft/PowerToys)** | System Suite | Windows 🪟 | [![Stars](https://img.shields.io/github/stars/microsoft/PowerToys?style=social&color=white)](https://github.com/microsoft/PowerToys/stargazers) | MIT | **The ultimate Windows utility toolkit.** Includes FancyZones window manager, PowerToys Run launcher, Color Picker, PowerRename, File Locksmith, and Keyboard Manager. |
 | **2** | **[ShareX](https://github.com/ShareX/ShareX)** | Screen Capture | Windows 🪟 | [![Stars](https://img.shields.io/github/stars/ShareX/ShareX?style=social&color=white)](https://github.com/ShareX/ShareX/stargazers) | GPL-3.0 | **Feature-packed screen capture suite.** Screenshot, video/GIF recording, scrolling capture, OCR, image annotation, and 80+ automated upload destinations. |
@@ -138,7 +138,7 @@ Thank you for your support! ❤️
 
 - This directory is community-curated for informational purposes.
 - System-level utilities require elevated permissions — evaluate security implications before installing third-party keyboard hooks or clipboard managers.
-- Open-source project star counts and SaaS pricing tiers are updated periodically.
+- Open-source project Stars_Counts and SaaS pricing tiers are updated periodically.
 
 ---
 
